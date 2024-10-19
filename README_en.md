@@ -10,13 +10,13 @@ ZOS is an open source system
 - Multiple modes, such as NAS mode, desktop mode, remote connection mode, maintenance mode, etc.
 - User/Server architecture, which supports simultaneous use by multiple users and devices.
 ## About the User/Server architecture
-About the User/Server architecture, hereinafter referred to as the U/S architecture:
+About the User/Server architecture, hereinafter referred to as the U/S architecture:  
 User:  
 - User Zone: Where the user runs, such as desktops, remote connections, and processes.
 - User File: The user's files, including documents, pictures, videos, music, etc.
 - User Zone File Connector: The user zone file connector is a bridge between users and the file system, and is responsible for synchronizing user files to the file system.
 - User Control: a bridge between User Zone, User File, and User ZFC
-- User Server Connector: a bridge between the user and the server
+- User Server Connector: a bridge between the user and the server  
 Server:  
 - Server Zone: The first place to start the system and dominate the User Control.
 - Server Admin: The user who owns the device can directly control the User Zone, such as the User Zone, without going through User Control, and cannot control it remotely.
